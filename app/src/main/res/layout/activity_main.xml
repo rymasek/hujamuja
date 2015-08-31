@@ -66,6 +66,12 @@
             android:text="New RadioButton"
             android:id="@+id/radioButton3" />
 
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton" />
+
 
     </LinearLayout>
 
