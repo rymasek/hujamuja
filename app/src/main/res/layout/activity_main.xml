@@ -72,6 +72,23 @@
             android:text="New ToggleButton"
             android:id="@+id/toggleButton" />
 
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:max="@integer/abc_config_activityDefaultDur"
+            android:indeterminate="true"
+            android:progress="@integer/abc_max_action_buttons" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal" />
+
 
     </LinearLayout>
 
